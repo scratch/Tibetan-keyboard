@@ -1,0 +1,18 @@
+# Tibetan keyboard.
+#
+# Last modified: Wed Jun 20 16:13:35 IST 2012
+
+TODO:
+
+1. Clean up control file
+   architecute: all
+   section: TBD
+   package name: TCRC tibetan keyboard and font
+
+2. Add other debian files: changelog, config, md5, etc.
+
+3. We have kbd layout and font. Do we create separate install?
+
+4. We are re-using bt (Bhutanese kbd), should be create another in /usr/share/X11/xkb/symbols, say /usr/share/X11/xkb/symbols/tb?
+
+
