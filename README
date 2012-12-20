@@ -1,4 +1,4 @@
-# Tibetan keyboard.
+Tibetan keyboard.
 #
 # Last modified: Wed Jun 20 16:13:35 IST 2012
 
@@ -15,4 +15,5 @@ TODO:
 
 4. We are re-using bt (Bhutanese kbd), should be create another in /usr/share/X11/xkb/symbols, say /usr/share/X11/xkb/symbols/tb?
 
+DELETE THIS: Temp data added.
 
