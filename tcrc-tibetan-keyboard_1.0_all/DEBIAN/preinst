@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+# Deletes the existing evdev.xml file
+
+if [ -f /usr/share/X11/xkb/rules/evdev.xml ]; then
+	sudo rm /usr/share/X11/xkb/rules/evdev.xml
+fi
+
+# Deletes the existing bt file
+
+if [ -f /usr/share/X11/xkb/symbols/bt ]; then
+	sudo rm /usr/share/X11/xkb/symbols/bt
+fi
+
+# Refreshes the font cache
+
+sudo fc-cache -f -v

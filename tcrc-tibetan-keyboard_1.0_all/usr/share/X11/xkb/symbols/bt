@@ -1,0 +1,91 @@
+// $XKeyboardConfig$
+//
+// TCRC Bodyig / Tibetan layout for TCRC keyboard
+//
+/////////////////////////////////////////////////////////////////
+
+//   Copyright (C) 2009, tcrc <tcrc@gov.tibet.net>
+///////////////////////////////////////////////////////////////// 
+//   Version 0.2  2009-01-09  Layout map provided by TCRC
+//  
+/////////////////////////////////////////////////////////////////
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+      name[Group1]= "Bhutan";
+
+      key <TLDE> { [      0x1000F09, 0x1000F38, 0x1000F6C, 0x1000F6D ]	};
+      
+// numbers e.a.
+      key <AE01> { [      0x1000F21, 0x1000F27, 1, exclam ]	};
+      key <AE02> { [      0x1000F22, 0x1000F04, 2, at     ]	};
+      key <AE03> { [      0x1000F23, 0x1000F05, 3, numbersign ]	};
+      key <AE04> { [      0x1000F24, 0x1000F48, 4, dollar  ]	};
+      key <AE05> { [      0x1000F25, 0x1000F70, 5, percent ]	};
+      key <AE06> { [      0x1000F26, 0x1000F08, 6, 0x1000F01 ]	};
+      key <AE07> { [      0x1000F27, 0x1000F38, 7, ampersand ]	};
+      key <AE08> { [      0x1000F28, 0x1000F34, 8, asterisk ]	};
+      key <AE09> { [      0x1000F29, 0x1000F3C, 9, parenleft ]	};
+      key <AE10> { [      0x1000F20, 0x1000F3D, 0, parenright ]	};
+      key <AE11> { [      0x1000F14, 0x1000F7F, minus, underscore ]	};
+      key <AE12> { [      0x1000F0D, 0x1000F11, equal, plus ]	};
+
+//****************************** TCRC Bodyig Starts
+      
+	// talu ta, wa, dengpo, ra
+
+      key <AD01> { [      0x1000f4a, 0x1000f4b, 0x1000F88, VoidSymbol  ]	};
+      key <AD02> { [      0x1000f5d, 0x1000fad, 0x1000F89, VoidSymbol  ]	};
+      key <AD03> { [      0x1000f7a, 0x1000f7b, 0x1000F6E, 0x1000F6F] 	};
+      key <AD04> { [      0x1000f62, ISO_Level3_shift, 0x1000FB2, 0x1000F82  ]	};
+
+
+	//ta ya shabchu gigu
+      key <AD05> { [      0x1000f4f, 0x1000f50, 0x1000F9F, VoidSymbol  ]	};
+      key <AD06> { [      0x1000f61, 0x1000F84, 0x1000FB1, VoidSymbol  ]	};
+      key <AD07> { [      0x1000f74, 0x1000F75, 0x1000F1C, VoidSymbol ]	};
+      key <AD08> { [      0x1000F72, 0x1000F73, 0x1000F1D, 0x1000F17  ]	};
+
+	//naro, pa, (not assigned), below pa
+
+      key <AD09> { [      0x1000F7C, 0x1000F7D, 0x1000F1E, 0x1000F18   ]	};
+      key <AD10> { [      0x1000F54, 0x1000F55, 0x1000FA4, 0x1000F19   ]	};
+      key <AD11> { [      0x1000F47, 0x1000F97, bracketleft, 0x1000F3E ]	};
+      key <AD12> { [      0x1000FA4, 0x1000F99, bracketright, 0x1000F3F  ]	};
+
+	//
+
+      key <AC01> { [      ISO_Level3_Latch, 0x1000F68 , 0x1000F4A, 0x1000F9A ]	};
+      key <AC02> { [      0x1000F66, 0x1000F64, 0x1000FB6, 0x1000F9B ]	};
+      key <AC03> { [      0x1000F51, 0x1000F5B, 0x1000FA1, 0x1000FAB ]	};
+      key <AC04> { [      0x1000F44, 0x1000FA2, 0x1000F94, 0x1000F9E ]	};
+      key <AC05> { [      0x1000F42, 0x1000F43, 0x1000F92, guillemotleft ]	};
+      key <AC06> { [      0x1000F67, 0x1000FB7, 0x1000FB7, guillemotright ]	};
+      key <AC07> { [      0x1000F47, 0x1000FAC, 0x1000F97, 0x1000F35 ]	};
+      key <AC08> { [      0x1000F40, 0x1000F41, 0x1000F90, VoidSymbol ]	};
+      key <AC09> { [      0x1000F63, 0x1000FA9, 0x1000FB3, VoidSymbol ]	};
+      key <AC10> { [      0x1000F4D, 0x1000F7F, 0x1000F4D, semicolon ]	};
+      key <AC11> { [      0x1000F60, 0x1000F71, apostrophe, quotedbl ]	};
+
+//
+
+      key <AB01> { [      0x1000F5F, 0x1000F5E, 0x1000F13, 0x1000F36 ]	};
+      key <AB02> { [      0x1000F59, 0x1000F5A, 0x1000FA9, 0x1000FBF ]	};
+      key <AB03> { [      0x1000F45, 0x1000F46, 0x1000F95, 0x1000FB0 ]	};
+      key <AB04> { [      0x1000F4C, 0x1000F4E, 0x1000F9C, 0x1000FBB ]	};
+      key <AB05> { [      0x1000F56, 0x1000F57, 0x1000FA6, 0x1000FBC ]	};
+      key <AB06> { [      0x1000F53, 0x1000F49, 0x1000FA3, 0x1000F99 ]	};
+      key <AB07> { [      0x1000F58, 0x1000F65, 0x1000FA8, 0x1000FB5 ]	};
+      key <AB08> { [      0x1000FB1, 0x1000FB3, comma, less ]	};
+      key <AB09> { [      0x1000FB2, 0x1000F62, period, greater ]	};
+      key <AB10> { [      0x1000F0D, 0x1000F66, slash, question ]	};
+
+// TODO: BKSL and LSGT are from gb layout, are there any variants?
+      key <BKSL> { [      0x1000F14, 0x1000F08, backslash, 0x1000FBA ]	};
+      key <LSGT> { [      0x1000F0D, 0x1000F11, 0x1000F10, 0x1000F0F ]	};
+
+      key <SPCE> { [ 0x1000F0B, space, 0x1000F0C, nobreakspace ] };
+
+    include "level3(ralt_switch)"
+	
+};

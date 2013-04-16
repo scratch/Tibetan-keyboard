@@ -1,0 +1,11 @@
+Package: tcrc-tibetan-keyboard
+Version: 1.0
+Architecture: all
+Maintainer: KRISHNAN N <krishnan.n@gai.co.in>
+Uploaders: ANISH CHAND <anishyoterpa@gmail.com>
+Installed-Size: 1843
+Section: utils
+Priority: optional
+Description: Tibetan Keyboard
+ Tibetan 'Keyboard Emulator' enables you to insert the Tibetan alphabet letters
+ from a standard keyboard.
