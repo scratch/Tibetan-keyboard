@@ -1,0 +1,12 @@
+af16e77bfa37a1c7bb1587050a05dbe2  usr/share/fonts/truetype/tcrc/tcrcyweb.ttf
+9ed617ab3a051bec25dbc2f8a9b2f7dc  usr/share/fonts/truetype/tcrc/tcrcbyn1.ttf
+8f368e0eff315719ee0fbbbdbf6c98bf  usr/share/fonts/truetype/tcrc/himalaya.ttf
+094e95ec5de0e12a8b53a1a538769d52  usr/share/fonts/truetype/tcrc/tcrcytn1.ttf
+6a2867f28fb9727d962bf7ec4194ccdc  usr/share/fonts/truetype/tcrc/TibetanUnicode.ttf
+10c0a26a802b2cd4d20ca82e50527aa9  usr/share/X11/xkb/symbols/bt
+8f704b19cefc35c9726482197742c00a  usr/share/X11/xkb/rules/evdev.xml
+d41d8cd98f00b204e9800998ecf8427e  usr/share/doc/tcrc-tibetan-keyboard/copyright
+d41d8cd98f00b204e9800998ecf8427e  usr/share/doc/tcrc-tibetan-keyboard/AUTHORS
+7b9e6ea57bba3bd2e426adebe0948c54  usr/share/doc/tcrc-tibetan-keyboard/changelog.gz
+6585d39af54d720b29e947f2b7e426d4  DEBIAN/control
+e5073c2cb512d3329b33c6c29b03c5e3  DEBIAN/preinst
